@@ -21,6 +21,7 @@ body {
     gap: 2rem;
     padding: 1rem;
     justify-content: center;
+    align-items: center;
 }
 
 
@@ -29,13 +30,13 @@ body {
 }
 
 .footer {
-    display: flex;
-    justify-content: space-around;
-    background-color: #ffffff;
-    padding: 0.3rem 0;
-    border: 1px solid #363175;
+    background-color: #f3f3f3;
     border-radius: 20px 20px 0 0;
-    
+    text-align: center;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+ 
 }
 
 .footer-button {
@@ -43,13 +44,14 @@ body {
     border: none;
     font-size: 24px;
     color: white;
-    cursor: pointer;
+    margin: 0rem 3rem 0 3rem;
 }
 
 .main-button {
     display: inline-flex;
     justify-content: center;
     padding: 2rem;
+    width: 100%;
     text-decoration: none;
     background-color: #3e3d92;
     color: white;
@@ -59,23 +61,22 @@ body {
 }
 
 .second-button{
-    display: inline-flex;
-    justify-content: center;
-    padding: 2rem;
-    text-decoration: none;
-    background-color: #3e3d92;
-    color: white;
-    font-size: 1.2rem;
-    border-radius: 1.25rem;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    background-color: #ffffff;
+    color: black;
+    width: 85%;
+    height: 5rem;
+    border: none;
+    border-radius: 1rem;
+    
 }
 
 .button-container {
     display: flex;
-    gap: 10px;
+    gap: 0.5rem;
     background: #f1e7ff;
-    padding: 10px;
-    border-radius: 30px;
+    padding: 0.5rem;
+    border-radius: 50rem;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     
 }
@@ -83,7 +84,7 @@ body {
 .custom-button {
     background: #ffffff;
     border: none;
-    border-radius: 30px;
-    padding: 10px 20px;
-    color: #4b4b4b;
+    border-radius: 50rem;
+    padding: 1rem 2rem;
+    color: #000000;
 }
