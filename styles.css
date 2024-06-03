@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+  
     margin: 0;
     padding: 0;
 }
@@ -7,18 +7,18 @@
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f3f3f3;
+    margin: 2rem;
+    margin-bottom: 0;
+    background: rgb(241,189,240);
+    background: linear-gradient(180deg, rgba(241,189,240,1) 0%, rgba(123,162,241,1) 100%);
+    background-repeat: no-repeat;
 }
 
-.container {
-    width: 20rem;
-    height: 40rem;
-    margin: 20px auto;
-    background: linear-gradient(to bottom, #F1BDF0, #7BA2F1);
-    border-radius: 20px;
-    text-align: center;
-    position: relative;
-}
 
+.imagecenter{
+    display: flex;
+    justify-content: center;
+}
 .footer {
     display: flex;
     justify-content: space-around;
@@ -38,20 +38,25 @@ body {
 }
 
 .main-button {
-    margin: 50px;
     background-color: #3e3d92;
     color: white;
     font-size: 1.2rem;
-    padding: 20px 100px;
+    padding: 2rem 7rem;
     border: none;
     border-radius: 20px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
     cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+    margin: 0px;
+    margin:auto;
     
+}
+
+.second-button{
+    background-color: #ffffff;
+    border: none;
+    padding: 1rem 1rem;
+    cursor: pointer;
+    margin: 1rem;
 }
 
 .button-container {
