@@ -1,24 +1,33 @@
-* {
-  
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
     margin: 0;
     padding: 0;
 }
 
+
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f3f3f3;
-    margin: 2rem;
-    margin-bottom: 0;
     background: rgb(241,189,240);
     background: linear-gradient(180deg, rgba(241,189,240,1) 0%, rgba(123,162,241,1) 100%);
     background-repeat: no-repeat;
-}
-
-
-.imagecenter{
     display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
     justify-content: center;
 }
+
+
+.profile-image {
+    max-width: 20vw;
+}
+
 .footer {
     display: flex;
     justify-content: space-around;
@@ -38,17 +47,15 @@ body {
 }
 
 .main-button {
+    display: inline-flex;
+    justify-content: center;
+    padding: 2rem;
+    text-decoration: none;
     background-color: #3e3d92;
     color: white;
     font-size: 1.2rem;
-    padding: 2rem 7rem;
-    border: none;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-    cursor: pointer;
-    margin: 0px;
-    margin:auto;
-    
 }
 
 .second-button{
@@ -66,6 +73,7 @@ body {
     padding: 10px;
     border-radius: 30px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    
 }
 
 .custom-button {
