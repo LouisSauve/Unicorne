@@ -4,7 +4,10 @@ body {
     margin: 0;
     padding: 0;
 }
+.h1{
+    text-align: center
 
+}
 .container {
     width: 90%;
     margin: auto;
@@ -15,10 +18,6 @@ header {
     align-items: center;
     padding: 20px 0;
 }
-
-
-
-
 
 
 
@@ -36,27 +35,42 @@ header {
     border-radius: 1.25rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 100%;
-    padding: 0rem;
+    padding: 1rem;
     display: flex;
     align-items: center;
     flex-direction: column;
     text-align: left;
 }
 .imagecard-bottom{
-   
-    margin-left: 2rem;
+    top: 2rem;
+    right: 2rem;
+    width: 10rem;
+    height: 8rem;
+  
   
 }
 
 .challenge {
-    font-size: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.content {
+    padding: 2rem;
     display: flex;
+    gap: 1rem;
+}
+
+.retour {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: 50px;
 }
 
 
-
-
-.challenge button {
+.main-button {
     background: #2E306D;
     border: none;
     border-radius: 50rem;
@@ -126,11 +140,6 @@ footer {
     border: none;
     margin: 0.5rem;
 
-}
-.navigation {
-    display: flex;
-    justify-content: space-around;
-    padding: 10px 0;
 }
 
 
