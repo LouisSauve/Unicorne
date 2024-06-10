@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E0ECFF;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+
+
+
+
+
+
+.verified {
+    color: #4CAF50;
+    margin-left: 5px;
+}
+
+
+
+
+
+.card {
+    background: #ffffff;
+    border-radius: 1.25rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    padding: 0rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+}
+.imagecard-bottom{
+   
+    margin-left: 2rem;
+  
+}
+
+.challenge {
+    font-size: 0.5rem;
+    display: flex;
+}
+
+
+
+
+.challenge button {
+    background: #2E306D;
+    border: none;
+    border-radius: 50rem;
+    padding: 1rem 2rem;
+    color: #ffffff;
+}
+
+.similar-goals h3 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.goal {
+
+        display: flex;
+        align-items: center;
+        background-color: #D8C8F8;
+        border-radius: 20px;
+        padding: 0px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        height: 10rem;
+        margin: 2rem;
+      
+    }
+
+
+.goal img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.goal-info p {
+    margin: 0;
+    font-size: 1em;
+    color: #555;
+}
+
+.goal-info button {
+    background: #2E306D;
+    border: none;
+    border-radius: 50rem;
+    padding: 1rem 2rem;
+    color: #ffffff;
+}
+
+footer {
+    background-color: #f3f3f3;
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+}
+
+.footer-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: white;
+    margin: 0rem 3rem 0 3rem;
+}
+
+.action-bottom{
+    border: none;
+    margin: 0.5rem;
+
+}
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+
