@@ -22,11 +22,15 @@ body {
     padding: 1rem;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
 }
 
 
 .profile-image {
     max-width: 20vw;
+}
+.coupe-image{
+    max-width: 50vw;
 }
 
 .footer {
@@ -58,22 +62,34 @@ body {
     font-size: 1.2rem;
     border-radius: 2rem;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-    box-shadow: inset 0em -0.9rem #020D41
+    box-shadow: inset 0em -0.9rem #020D41;
+    text-decoration: none;
 }
 
 .second-button{
-    background-image: url(images/fleche\ qui\ brille.png);
-    size: fit-content;
-    width: 100%;
+    display: flex;
     padding: 1rem;
     background-color: #ffffff;
     color: black;
-    width: 85%;
+    width: 23rem;
     height: 5rem;
     border: none;
-    border-radius: 1rem;
+    border-radius: 1.7rem;
     text-align: left;
-    
+    text-decoration: none;
+    align-items: center;
+}
+.intitule{
+    max-width: 15rem;
+}
+.chiffre1{
+    font-size: 2.5rem;
+    max-width: 3rem;
+    margin-left: 3rem;
+}
+.chiffre2{
+    font-size: 2.5rem;
+    margin-left: 11rem;
 }
 
 .button-container {
@@ -99,17 +115,44 @@ body {
     padding: 1rem 2rem;
     color: #ffffff;
 }
-.custom-button3{
-    background: #2E306D;
-    border: none;
-    border-radius: 50rem;
-    padding: 0.7rem 2rem;
-    color: #ffffff;
-    margin-top: 1rem;
-    margin-left: 4rem;
+
+.retour {  position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: 50px;
 }
 
-
+.color-button{
+        background: linear-gradient(to right, #9FA5FF, #FEC8D8); /* Gradient background */
+        border: none;
+        color: white;
+        padding: 20px 50px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        border-radius: 2rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        outline: none;
+        border: 2px solid white;
+    }
+.retour-button{
+    background: none;
+        border: none;
+        color: white;
+        padding: 20px 50px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        border-radius: 2rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        outline: none;
+        border: 2px solid white;
+}
 
 
 .bandeau-top{
@@ -161,3 +204,73 @@ body {
     margin-right: 1rem;
 }
 
+
+
+
+
+.fond-bleu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: auto;
+    height: 35rem;
+    background-color: #2E306D;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    gap: 1rem;
+}
+
+
+
+.progress-circle {
+    position: relative;
+    width: 155px;
+    height: 155px;
+}
+
+.progress-circle svg {
+    transform: rotate(-90deg);
+    width: 100%;
+    height: 100%;
+}
+
+.progress-circle circle {
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke-width: 10;
+}
+
+.progress-circle .bg {
+    stroke: #1A1A3D;
+}
+
+.progress-circle .progress {
+    stroke: #9FA5FF;
+    stroke-linecap: round;
+    stroke-dasharray: 440;
+    stroke-dashoffset: 286;
+    transition: stroke-dashoffset 0.5s;
+}
+
+.progress-circle .percentage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+
+.percentage{
+    color: #ffffff;
+}
+
+.gros-text{
+    font-size: 1rem;
+    color: #ffffff;
+}
+.petit-text{
+    font-size: 0.6rem;
+    color: #ffffff;
+}
