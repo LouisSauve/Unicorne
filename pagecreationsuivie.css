@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2a1c60;
+    background: linear-gradient(180deg, rgba(241,189,240,1) 0%, rgba(123,162,241,1) 100%);
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #3e2775;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.back-button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.add-image-button {
+    background-color: #9c89db;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.steps {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.step {
+    background-color: #4d3a91;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.step-number {
+    background-color: #5c4cbb;
+    padding: 10px;
+    border-radius:100rem;
+    max-width: 1rem;
+    max-height: 1rem;
+    font-size: 20px;
+    margin-right: 10px;
+    width: 40px;
+    text-align: center;
+}
+
+.step-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex-grow: 1;
+}
+
+.step-content p, .step-content input {
+    margin: 0;
+}
+
+.step-content input {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.add-image, .view-button {
+    background-color: #9c89db;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.add-step {
+    display: flex;
+    justify-content: center;
+}
+
+.add-step-button {
+    background-color: transparent;
+    border: 2px dashed #9c89db;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #9c89db;
+}
+
+.publish-button {
+    background-color: #9c89db;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    color: #fff;
+}
+
+.footer {
+    background-color: #f3f3f3;
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+ 
+}
+
+.footer-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: white;
+    margin: 0rem 3rem 0 3rem;
+}

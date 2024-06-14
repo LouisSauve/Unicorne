@@ -115,6 +115,16 @@ body {
     padding: 1rem 2rem;
     color: #ffffff;
 }
+.custom-button3{
+    background: #2E306D;
+    border: none;
+    border-radius: 50rem;
+    padding: 1rem 2rem;
+    color: #ffffff;
+    margin:1rem;
+    margin-left: 2rem;
+}
+
 
 .retour {  position: absolute;
     top: 10px;
@@ -274,3 +284,5 @@ body {
     font-size: 0.6rem;
     color: #ffffff;
 }
+
+
