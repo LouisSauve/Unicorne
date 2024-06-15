@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:ital,wght@0,300..700;1,300..700&display=swap');
+html
 body {
-    font-family: Arial, sans-serif;
-    background-color: #2a1c60;
+    font-family: "Radio Canada", sans-serif;
     background: linear-gradient(180deg, rgba(241,189,240,1) 0%, rgba(123,162,241,1) 100%);
+    
     color: #fff;
     margin: 0;
     padding: 20px;
@@ -12,7 +14,7 @@ body {
 }
 
 .container {
-    background-color: #3e2775;
+    background: none;
     padding: 20px;
     border-radius: 10px;
     width: 300px;
@@ -62,10 +64,12 @@ h1 {
 
 .step {
     background-color: #4d3a91;
-    padding: 10px;
+   
     border-radius: 5px;
     display: flex;
     align-items: center;
+    border-radius: 1.5rem;
+    padding: 1rem;
 }
 
 .step-number {
@@ -121,13 +125,20 @@ h1 {
 }
 
 .publish-button {
-    background-color: #9c89db;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    padding: 2rem;
     width: 100%;
-    color: #fff;
+    text-decoration: none;
+    background-color: #2E306D;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 2rem;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0em -0.9rem #020D41;
+    text-decoration: none;
+    margin-bottom: 5rem;
+    border: none;
 }
 
 .footer {

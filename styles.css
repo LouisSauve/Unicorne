@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:ital,wght@0,300..700;1,300..700&display=swap');
 html {
     box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*, :before, *:after {
     box-sizing: inherit;
     margin: 0;
     padding: 0;
@@ -11,7 +12,7 @@ html {
 
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: "Radio Canada", sans-serif;
     background-color: #f3f3f3;
     background: rgb(241,189,240);
     background: linear-gradient(180deg, rgba(241,189,240,1) 0%, rgba(123,162,241,1) 100%);
@@ -81,6 +82,7 @@ body {
 }
 .intitule{
     max-width: 15rem;
+    font-family: "Radio Canada", sans-serif;
 }
 .chiffre1{
     font-size: 2.5rem;
@@ -203,6 +205,8 @@ body {
 .card-top{
     font-size: 0.5rem;
     display: flex;
+    text-decoration: none;
+    font-size: 0.7rem;
 }
 .card-bottom{
     display: flex;
@@ -277,11 +281,11 @@ body {
 }
 
 .gros-text{
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #ffffff;
 }
 .petit-text{
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     color: #ffffff;
 }
 
